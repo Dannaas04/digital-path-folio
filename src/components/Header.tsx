@@ -21,7 +21,7 @@ const Header = () => {
           {/* Name and Contact Info */}
           <div className="flex-1 text-center md:text-left">
             <h1 className="font-playfair text-4xl md:text-5xl font-bold mb-2">
-              [Your Full Name]
+              Dana El Sayegh
             </h1>
             <p className="text-xl md:text-2xl font-inter font-light mb-4 text-blue-100">
               [Your Program of Study]
