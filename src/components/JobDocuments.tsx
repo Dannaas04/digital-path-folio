@@ -31,23 +31,58 @@ const JobDocuments = () => {
   ];
 
   const skills = [
-    {
-      category: 'Technical Skills',
-      items: [
-        { skill: 'Data Analysis', example: 'Created comprehensive market research reports using Excel and SPSS' },
-        { skill: 'Project Management', example: 'Led cross-functional team of 8 members to deliver project 2 weeks ahead of schedule' },
-        { skill: 'Software Proficiency', example: 'Advanced in Microsoft Office Suite, Adobe Creative Suite, and various CRM systems' }
-      ]
-    },
-    {
-      category: 'Soft Skills',
-      items: [
-        { skill: 'Communication', example: 'Presented findings to C-level executives, resulting in 15% budget increase' },
-        { skill: 'Leadership', example: 'Mentored 5 junior team members, with 100% retention rate over 18 months' },
-        { skill: 'Problem Solving', example: 'Identified process inefficiency that saved company $50K annually' }
-      ]
-    }
-  ];
+  {
+    category: 'Technical Skills',
+    items: [
+      {
+        skill: 'Programming Languages',
+        example: 'Developed academic and personal projects using Python, Java, and JavaScript'
+      },
+      {
+        skill: 'Web Development',
+        example: 'Built responsive websites using React, Tailwind CSS, and Node.js'
+      },
+      {
+        skill: 'Data Structures & Algorithms',
+        example: 'Solved 200+ problems on LeetCode and participated in hackathons'
+      },
+      {
+        skill: 'Databases',
+        example: 'Designed and queried relational databases using MySQL and PostgreSQL'
+      },
+      {
+        skill: 'Version Control',
+        example: 'Collaborated on group projects using Git and GitHub with effective branching workflows'
+      }
+    ]
+  },
+  {
+    category: 'Soft Skills',
+    items: [
+      {
+        skill: 'Teamwork',
+        example: 'Worked on multi-member group projects and contributed to GitHub repositories in real time'
+      },
+      {
+        skill: 'Communication',
+        example: 'Presented project demos and technical documentation to peers and instructors'
+      },
+      {
+        skill: 'Problem Solving',
+        example: 'Debugged and optimized legacy code for coursework and coding competitions'
+      },
+      {
+        skill: 'Time Management',
+        example: 'Balanced 5+ coursework modules while maintaining consistent project development'
+      },
+      {
+        skill: 'Adaptability',
+        example: 'Quickly learned new technologies such as Docker and Firebase for final year projects'
+      }
+    ]
+  }
+];
+
 
   return (
     <section id="job-documents" className="py-16 bg-white">
