@@ -11,14 +11,14 @@ const JobDocuments = () => {
       description: 'Comprehensive career goals and development strategy',
       type: 'PDF',
       lastUpdated: '2024-01-15',
-      url: '/My Professional Development Plan.pdf'
+      url: '/My-Professional-Development-Plan.pdf'
     },
     {
       title: 'Curriculum Vitae (CV)',
       description: 'Complete academic and professional background',
       type: 'PDF',
       lastUpdated: '2024-01-20',
-      url: '/My CV.pdf'
+      url: '/My-CV.pdf'
     },
 
     {
