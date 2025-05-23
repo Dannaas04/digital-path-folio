@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { BookOpen, Lightbulb, TrendingUp } from 'lucide-react';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
@@ -10,10 +9,10 @@ const ReflectionSection = () => {
       <div className="max-w-6xl mx-auto px-6">
         <div className="text-center mb-12">
           <h2 className="font-playfair text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-            Work-Based Learning Reflection
+            Academic & Technical Reflection
           </h2>
           <p className="text-lg text-secondary max-w-2xl mx-auto">
-            A comprehensive reflection on professional development and career growth
+            A personal reflection on academic learning, technical growth, and future goals as a computer science student
           </p>
         </div>
 
@@ -28,24 +27,21 @@ const ReflectionSection = () => {
             </CardHeader>
             <CardContent className="space-y-4">
               <div className="bg-accent-blue p-4 rounded-lg">
-                <h4 className="font-semibold text-gray-900 mb-2">Skill Development</h4>
+                <h4 className="font-semibold text-gray-900 mb-2">Technical Growth</h4>
                 <p className="text-secondary">
-                  Through various work experiences, I've developed strong analytical and communication skills, 
-                  particularly in translating complex data into actionable business insights.
+                  Through coursework and personal projects, I gained hands-on experience with Python, data structures, and web development, which helped me better understand how technology solves real-world problems.
                 </p>
               </div>
               <div className="bg-accent-blue p-4 rounded-lg">
-                <h4 className="font-semibold text-gray-900 mb-2">Industry Understanding</h4>
+                <h4 className="font-semibold text-gray-900 mb-2">Collaborative Learning</h4>
                 <p className="text-secondary">
-                  My exposure to different workplace environments has given me a comprehensive understanding 
-                  of industry standards, professional expectations, and collaborative work dynamics.
+                  Working on group assignments and hackathons improved my ability to communicate ideas effectively, manage tasks, and contribute to team-based coding efforts.
                 </p>
               </div>
               <div className="bg-accent-blue p-4 rounded-lg">
-                <h4 className="font-semibold text-gray-900 mb-2">Career Direction</h4>
+                <h4 className="font-semibold text-gray-900 mb-2">Career Exploration</h4>
                 <p className="text-secondary">
-                  These experiences have clarified my career aspirations and helped me identify specific 
-                  areas where I want to continue growing and contributing professionally.
+                  Exposure to various domains like AI, cybersecurity, and full-stack development helped me clarify my interests and identify areas I want to specialize in post-graduation.
                 </p>
               </div>
             </CardContent>
@@ -62,13 +58,12 @@ const ReflectionSection = () => {
             <CardContent>
               <div className="space-y-4">
                 <img 
-                  src="https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?w=400&h=300&fit=crop" 
-                  alt="Work reflection document"
+                  src="https://images.unsplash.com/photo-1559027615-3e5f0d6c57da?w=400&h=300&fit=crop" 
+                  alt="Student reflection document"
                   className="w-full h-32 object-cover rounded-lg"
                 />
                 <p className="text-secondary text-sm">
-                  A detailed 2-page self-reflection report examining how work exposure and experiences 
-                  have shaped professional development.
+                  A written reflection exploring how academic projects, teamwork, and self-study contributed to my development as a computer science student.
                 </p>
                 <Button className="w-full">
                   <BookOpen size={16} className="mr-2" />
@@ -79,31 +74,31 @@ const ReflectionSection = () => {
           </Card>
         </div>
 
-        {/* Professional Growth Timeline */}
+        {/* Academic Growth Timeline */}
         <Card>
           <CardHeader>
             <CardTitle className="flex items-center gap-2">
               <TrendingUp className="text-primary" size={24} />
-              Professional Growth Journey
+              Academic Growth Journey
             </CardTitle>
           </CardHeader>
           <CardContent>
             <div className="space-y-6">
               {[
                 {
-                  period: 'Early Experience',
-                  description: 'Initial exposure to professional environments and basic skill development',
-                  skills: ['Time Management', 'Professional Communication', 'Basic Technical Skills']
+                  period: 'Foundation Year',
+                  description: 'Introduction to programming fundamentals and basic mathematics for computer science',
+                  skills: ['Python Basics', 'Logical Thinking', 'Debugging']
                 },
                 {
-                  period: 'Skill Building',
-                  description: 'Focused development of core competencies and industry-specific knowledge',
-                  skills: ['Advanced Technical Skills', 'Project Management', 'Team Collaboration']
+                  period: 'Intermediate Stage',
+                  description: 'Application of data structures, algorithms, and software engineering principles',
+                  skills: ['Object-Oriented Programming', 'Git Collaboration', 'Algorithmic Problem Solving']
                 },
                 {
-                  period: 'Leadership Development',
-                  description: 'Taking on increased responsibilities and mentoring opportunities',
-                  skills: ['Leadership', 'Strategic Thinking', 'Conflict Resolution']
+                  period: 'Specialization & Projects',
+                  description: 'Exploring AI, databases, and full-stack web development through academic and personal projects',
+                  skills: ['React & Node.js', 'SQL & NoSQL', 'Machine Learning']
                 }
               ].map((stage, index) => (
                 <div key={index} className="flex gap-4">
