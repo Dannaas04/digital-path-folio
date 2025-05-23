@@ -17,6 +17,7 @@ const JobDocuments = () => {
       description: 'Complete academic and professional background',
       type: 'PDF',
       lastUpdated: '2024-01-20'
+      url: '/My CV.pdf'
     },
     {
       title: 'Cover Letter Sample',
