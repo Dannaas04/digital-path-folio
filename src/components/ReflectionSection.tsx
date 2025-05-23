@@ -58,7 +58,7 @@ const ReflectionSection = () => {
             <CardContent>
               <div className="space-y-4">
                 <img 
-                  src="https://images.unsplash.com/photo-1559027615-3e5f0d6c57da?w=400&h=300&fit=crop" 
+                  src="https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?w=400&h=300&fit=crop" 
                   alt="Student reflection document"
                   className="w-full h-32 object-cover rounded-lg"
                 />
