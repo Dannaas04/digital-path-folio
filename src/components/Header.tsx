@@ -24,26 +24,26 @@ const Header = () => {
               Dana El Sayegh
             </h1>
             <p className="text-xl md:text-2xl font-inter font-light mb-4 text-blue-100">
-              [Your Program of Study]
+              Computer Science
             </p>
             
             {/* Contact Information */}
             <div className="flex flex-wrap justify-center md:justify-start gap-6 text-sm">
               <div className="flex items-center gap-2">
                 <Mail size={16} />
-                <span>[your.professional@email.com]</span>
+                <span>danasayegh49@gmail.com</span>
               </div>
               <div className="flex items-center gap-2">
                 <Phone size={16} />
-                <span>[Your Phone Number]</span>
+                <span>71582320</span>
               </div>
               <div className="flex items-center gap-2">
                 <MapPin size={16} />
-                <span>[City, State/Province]</span>
+                <span>Beirut - Lebanon</span>
               </div>
               <div className="flex items-center gap-2">
                 <Linkedin size={16} />
-                <a href="#" className="hover:text-blue-200 transition-colors">
+                <a href="https://www.linkedin.com/in/dana-sayegh/" className="hover:text-blue-200 transition-colors">
                   LinkedIn Profile
                 </a>
               </div>
