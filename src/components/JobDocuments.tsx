@@ -16,9 +16,10 @@ const JobDocuments = () => {
       title: 'Curriculum Vitae (CV)',
       description: 'Complete academic and professional background',
       type: 'PDF',
-      lastUpdated: '2024-01-20'
+      lastUpdated: '2024-01-20',
       url: '/My CV.pdf'
     },
+
     {
       title: 'Cover Letter Sample',
       description: 'Template cover letter for job applications',
@@ -74,16 +75,30 @@ const JobDocuments = () => {
                   <span>Type: {doc.type}</span>
                   <span>Updated: {doc.lastUpdated}</span>
                 </div>
-                <div className="flex gap-2">
-                  <Button variant="outline" size="sm" className="flex-1">
+               <div className="flex gap-2">
+                <a
+                  href={doc.url}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex-1"
+                >
+                  <Button variant="outline" size="sm" className="w-full">
                     <Eye size={16} className="mr-2" />
                     View
                   </Button>
-                  <Button size="sm" className="flex-1">
+                </a>
+                <a
+                  href={doc.url}
+                  download
+                  className="flex-1"
+                >
+                  <Button size="sm" className="w-full">
                     <Download size={16} className="mr-2" />
                     Download
                   </Button>
-                </div>
+                </a>
+              </div>
+
               </CardContent>
             </Card>
           ))}
