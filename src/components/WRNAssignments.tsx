@@ -11,7 +11,8 @@ const WRNAssignments = () => {
       description: 'Interactive assessment showcasing key professional competencies',
       icon: Diamond,
       type: 'Assessment',
-      completed: '2024-01-10'
+      completed: '2024-01-10',
+      url: '/YouRock.pdf'
     },
     {
       title: 'Learning Style Visualization',
@@ -19,7 +20,8 @@ const WRNAssignments = () => {
       icon: Eye,
       type: 'Infographic',
       platform: 'Easel.ly',
-      completed: '2024-01-12'
+      completed: '2024-01-12',
+      url: '/Learning-Style.png'
     },
     {
       title: 'Communication Comic Strips',
@@ -27,11 +29,12 @@ const WRNAssignments = () => {
       icon: Users,
       type: 'Comic',
       platform: 'Pixton',
-      completed: '2024-01-15'
+      completed: '2024-01-15',
+      url: '/Communication-Comic-Strips.pdf'
     },
     {
-      title: 'Customer Service Excellence Video',
-      description: 'Demonstration of professional customer service best practices',
+      title: 'Community Mapping',
+      description: 'Demonstration of potential workplaces near me',
       icon: Video,
       type: 'Video',
       platform: 'Powtoon',
