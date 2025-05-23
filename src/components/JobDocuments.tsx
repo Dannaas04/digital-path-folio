@@ -10,7 +10,8 @@ const JobDocuments = () => {
       title: 'Professional Development Plan',
       description: 'Comprehensive career goals and development strategy',
       type: 'PDF',
-      lastUpdated: '2024-01-15'
+      lastUpdated: '2024-01-15',
+      url: '/My Professional Development Plan.pdf'
     },
     {
       title: 'Curriculum Vitae (CV)',
@@ -24,7 +25,8 @@ const JobDocuments = () => {
       title: 'Cover Letter Sample',
       description: 'Template cover letter for job applications',
       type: 'PDF',
-      lastUpdated: '2024-01-18'
+      lastUpdated: '2024-01-18',
+      url: '/Cover Letter.pdf'
     }
   ];
 
@@ -55,7 +57,7 @@ const JobDocuments = () => {
             Job Seeking Documents
           </h2>
           <p className="text-lg text-secondary max-w-2xl mx-auto">
-            Essential documents and skills overview for your career journey
+            Essential documents and skills overview for my career journey
           </p>
         </div>
 
