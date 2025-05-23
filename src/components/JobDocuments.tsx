@@ -26,7 +26,7 @@ const JobDocuments = () => {
       description: 'Template cover letter for job applications',
       type: 'PDF',
       lastUpdated: '2024-01-18',
-      url: '/Cover Letter.pdf'
+      url: '/Cover-Letter.pdf'
     }
   ];
 
