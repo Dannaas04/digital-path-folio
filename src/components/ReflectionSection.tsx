@@ -67,7 +67,7 @@ const ReflectionSection = () => {
                 <p className="text-secondary text-sm">
                   A 2-page reflection discussing my growth, skills learned, and how coursework and experience influenced my academic journey.
                 </p>
-                <a href={reflectionReportUrl} target="_blank" rel="noopener noreferrer">
+                <a href={/Student_Reflection_Report.pdf} target="_blank" rel="noopener noreferrer">
                   <Button className="w-full">
                     <BookOpen size={16} className="mr-2" />
                     Read Full Report
