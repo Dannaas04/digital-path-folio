@@ -80,7 +80,7 @@ const assignments = [
     icon: Diamond,
     type: 'Graphic',
     completed: '2024-01-28',
-    url: '/Leadership-Graphic.png'
+    url: '/Consulting.png'
   }
 ];
 
@@ -127,10 +127,13 @@ const assignments = [
                       Completed: {assignment.completed}
                     </span>
                   </div>
-                  <Button className="w-full">
-                    <Eye size={16} className="mr-2" />
-                    View Assignment
+                  <Button asChild className="w-full">
+                    <a href={assignment.url} target="_blank" rel="noopener noreferrer">
+                      <Eye size={16} className="mr-2" />
+                      View Assignment
+                    </a>
                   </Button>
+
                 </CardContent>
               </Card>
             );
