@@ -25,7 +25,7 @@ const Header = () => {
               Dana El Sayegh
             </h1>
             <p className="text-xl md:text-2xl font-inter font-light mb-4 text-blue-100">
-              Computer Science
+              Computer Science Student
             </p>
             
             {/* Contact Information */}
