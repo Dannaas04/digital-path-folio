@@ -7,14 +7,6 @@ import { Button } from '@/components/ui/button';
 const WRNAssignments = () => {
 const assignments = [
   {
-    title: 'YouRockJobs.org Skills Diamond',
-    description: 'Interactive assessment showcasing key professional competencies',
-    icon: Diamond,
-    type: 'Assessment',
-    completed: '2024-01-10',
-    url: '/YouRock.pdf'
-  },
-  {
     title: 'Learning Style Visualization',
     description: 'Visual representation of personal learning preferences and strategies',
     icon: Eye,
