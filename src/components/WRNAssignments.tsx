@@ -142,7 +142,7 @@ const assignments = [
   </CardHeader>
   <CardContent className="text-center">
     <p className="text-secondary mb-6 text-lg">
-      Core strengths identified from your YouRockJobs.org Diamond Assessment
+      Core strengths identified
     </p>
     <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 mb-6">
       {[
