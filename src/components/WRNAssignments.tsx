@@ -133,38 +133,48 @@ const assignments = [
         </div>
 
         {/* Skills Diamond Highlight */}
-        <Card className="bg-gradient-to-r from-primary/5 to-primary-light/5 border-primary/20">
-          <CardHeader>
-            <CardTitle className="flex items-center gap-3 text-center justify-center">
-              <Diamond className="text-primary" size={32} />
-              <span className="text-2xl">Skills Diamond Assessment</span>
-            </CardTitle>
-          </CardHeader>
-          <CardContent className="text-center">
-            <p className="text-secondary mb-6 text-lg">
-              Comprehensive evaluation of professional competencies across key areas
-            </p>
-            <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-6">
-              {['Leadership', 'Communication', 'Technical Skills', 'Adaptability'].map((skill, index) => (
-                <div key={index} className="bg-white p-4 rounded-lg shadow-sm">
-                  <div className="w-16 h-16 bg-primary/10 rounded-full mx-auto mb-2 flex items-center justify-center">
-                    <Diamond className="text-primary" size={24} />
-                  </div>
-                  <h4 className="font-semibold text-gray-900">{skill}</h4>
-                  <div className="w-full bg-gray-200 rounded-full h-2 mt-2">
-                    <div 
-                      className="bg-primary h-2 rounded-full" 
-                      style={{ width: `${85 + index * 3}%` }}
-                    ></div>
-                  </div>
-                </div>
-              ))}
-            </div>
-            <Button size="lg" className="px-8">
-              View Complete Assessment
-            </Button>
-          </CardContent>
-        </Card>
+<Card className="bg-gradient-to-r from-primary/5 to-primary-light/5 border-primary/20">
+  <CardHeader>
+    <CardTitle className="flex items-center gap-3 text-center justify-center">
+      <Diamond className="text-primary" size={32} />
+      <span className="text-2xl">Skills Diamond Assessment</span>
+    </CardTitle>
+  </CardHeader>
+  <CardContent className="text-center">
+    <p className="text-secondary mb-6 text-lg">
+      Core strengths identified from your YouRockJobs.org Diamond Assessment
+    </p>
+    <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 mb-6">
+      {[
+        { skill: 'Competitive', percent: 92 },
+        { skill: 'Growth', percent: 89 },
+        { skill: 'Innovation', percent: 88 },        
+        { skill: 'Work Ethic', percent: 90 },
+        { skill: 'Time Optimizer', percent: 87 },
+        
+      ].map(({ skill, percent }, index) => (
+        <div key={index} className="bg-white p-4 rounded-lg shadow-sm">
+          <div className="w-16 h-16 bg-primary/10 rounded-full mx-auto mb-2 flex items-center justify-center">
+            <Diamond className="text-primary" size={24} />
+          </div>
+          <h4 className="font-semibold text-gray-900">{skill}</h4>
+          <div className="w-full bg-gray-200 rounded-full h-2 mt-2">
+            <div 
+              className="bg-primary h-2 rounded-full transition-all duration-300 ease-in-out" 
+              style={{ width: `${percent}%` }}
+            ></div>
+          </div>
+        </div>
+      ))}
+    </div>
+    <Button asChild size="lg" className="px-8">
+      <a href="/YouRock.pdf" target="_blank" rel="noopener noreferrer">
+        View Complete Assessment
+      </a>
+    </Button>
+  </CardContent>
+</Card>
+
       </div>
     </section>
   );
