@@ -7,64 +7,42 @@ import { Button } from '@/components/ui/button';
 const AdditionalMaterials = () => {
   const materials = [
     {
-      category: 'Publications & Writing',
+      category: 'Publications & Research',
       icon: FileText,
       items: [
-        'Industry Analysis: "Future Trends in Digital Marketing" - Marketing Today Magazine',
-        'Research Paper: "Impact of Remote Work on Team Productivity"',
-        'Blog Series: "Professional Development in the Digital Age"'
-      ]
-    },
-    {
-      category: 'Work Samples & Projects',
-      icon: Briefcase,
-      items: [
-        'Marketing Campaign Strategy for Local Business (+15% engagement)',
-        'Database Optimization Project (reduced query time by 40%)',
-        'User Experience Redesign Case Study'
-      ]
-    },
-    {
-      category: 'References & Recommendations',
-      icon: Users,
-      items: [
-        'Letter of Recommendation - Dr. Sarah Johnson, Academic Supervisor',
-        'Professional Reference - Mark Thompson, Senior Manager',
-        'Character Reference - Lisa Chen, Team Lead'
+        'IEEE Research Paper: "AI-Based Crime Scene Reconstruction Using 3D Modeling and Object Detection"'
       ]
     }
   ];
 
-  const achievements = [
-    {
-      type: 'Award',
-      title: 'Excellence in Academic Achievement',
-      organization: 'University Academic Board',
-      year: '2023',
-      icon: Award
-    },
-    {
-      type: 'Certification',
-      title: 'Google Analytics Certified',
-      organization: 'Google',
-      year: '2024',
-      icon: GraduationCap
-    },
-    {
-      type: 'Recognition',
-      title: 'Employee of the Month',
-      organization: 'ABC Corporation',
-      year: '2023',
-      icon: Star
-    }
-  ];
+ const achievements = [
+  {
+    type: 'Certification',
+    title: '2nd Place – Senior Expo Project Competition',
+    organization: 'American University of Science & Technology',
+    year: '2025',
+    icon: GraduationCap
+  },
+  {
+    type: 'Certification',
+    title: 'Participation – LIRA 21 Research & Innovation Program',
+    organization: 'IRA Leb',
+    year: '2025',
+    icon: GraduationCap
+  },
+  {
+    type: 'Award',
+    title: '3rd Place – Huawei ICT Competition (Lebanon Finals)',
+    organization: 'Huawei',
+    year: '2024',
+    icon: Award
+  }
+];
+
 
   const trainings = [
-    'Leadership Development Workshop - Harvard Business School Online',
-    'Agile Project Management Certification - Scrum Alliance',
-    'Digital Marketing Strategy - Coursera',
-    'Data Analysis with Python - edX',
-    'Professional Communication Skills - LinkedIn Learning'
+    'LIRA Training - Capacity Building',
+    'Huawei Training - Huawei ICT Skill Competition',
   ];
 
   return (
@@ -100,8 +78,11 @@ const AdditionalMaterials = () => {
                     ))}
                   </ul>
                   <Button variant="outline" className="w-full mt-6">
+                   <a href='/IEEE.pdf' target='_blank' rel='noopener noreferral'>
                     View Materials
+                     </a>
                   </Button>
+                    
                 </CardContent>
               </Card>
             );
