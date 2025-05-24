@@ -11,7 +11,7 @@ const Header = () => {
           <div className="flex-shrink-0">
             <div className="w-40 h-40 rounded-full bg-white/20 border-4 border-white overflow-hidden">
             <img 
-                src={`${process.env.PUBLIC_URL}/headshot.png`} 
+                src="/lovable-uploads/6dda3205-1611-4a9c-a04d-d1359d4faa51.png" 
                 alt="Professional Headshot"
                 className="w-full h-full object-cover"
               />
