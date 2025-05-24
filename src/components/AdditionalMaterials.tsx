@@ -133,11 +133,7 @@ const AdditionalMaterials = () => {
                 </div>
               ))}
             </div>
-            <div className="text-center mt-6">
-              <Button>
-                View All Certificates
-              </Button>
-            </div>
+      
           </CardContent>
         </Card>
       </div>
