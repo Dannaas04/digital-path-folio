@@ -13,11 +13,11 @@ const Footer = () => {
             <div className="space-y-3">
               <div className="flex items-center gap-3">
                 <Mail size={18} className="text-primary-light" />
-                <span>[your.professional@email.com]</span>
+                <span>danasayegh49@gmail.com</span>
               </div>
               <div className="flex items-center gap-3">
                 <Linkedin size={18} className="text-primary-light" />
-                <a href="#" className="hover:text-primary-light transition-colors">
+                <a href="https://www.linkedin.com/in/dana-sayegh/" className="hover:text-primary-light transition-colors">
                   LinkedIn Profile
                 </a>
               </div>
@@ -51,7 +51,7 @@ const Footer = () => {
             </p>
             <div className="flex gap-3">
               <a 
-                href="mailto:[your.professional@email.com]" 
+                href="mailto:danasayegh49@gmail.com" 
                 className="bg-primary hover:bg-primary-dark px-4 py-2 rounded transition-colors text-sm flex items-center gap-2"
               >
                 <Mail size={16} />
@@ -62,7 +62,7 @@ const Footer = () => {
         </div>
 
         <div className="border-t border-gray-700 mt-8 pt-8 text-center text-gray-400 text-sm">
-          <p>&copy; 2024 [Your Name]. Professional Digital Portfolio.</p>
+          <p>&copy; 2025 Dana El Sayegh. Professional Digital Portfolio.</p>
         </div>
       </div>
     </footer>
