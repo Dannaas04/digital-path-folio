@@ -18,7 +18,7 @@ const assignments = [
     title: 'Learning Style Visualization',
     description: 'Visual representation of personal learning preferences and strategies',
     icon: Eye,
-    type: 'Infographic',
+    type: 'Graphic',
     platform: 'Canva',
     completed: '2024-01-12',
     url: '/Learning-Style.png'
