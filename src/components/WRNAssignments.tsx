@@ -5,42 +5,84 @@ import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
 
 const WRNAssignments = () => {
-  const assignments = [
-    {
-      title: 'YouRockJobs.org Skills Diamond',
-      description: 'Interactive assessment showcasing key professional competencies',
-      icon: Diamond,
-      type: 'Assessment',
-      completed: '2024-01-10',
-      url: '/YouRock.pdf'
-    },
-    {
-      title: 'Learning Style Visualization',
-      description: 'Visual representation of personal learning preferences and strategies',
-      icon: Eye,
-      type: 'Infographic',
-      platform: 'Easel.ly',
-      completed: '2024-01-12',
-      url: '/Learning-Style.png'
-    },
-    {
-      title: 'Communication Comic Strips',
-      description: 'Two scenarios demonstrating effective vs. ineffective workplace communication',
-      icon: Users,
-      type: 'Comic',
-      platform: 'Pixton',
-      completed: '2024-01-15',
-      url: '/Communication-Comic-Strips.pdf'
-    },
-    {
-      title: 'Community Mapping',
-      description: 'Demonstration of potential workplaces near me',
-      icon: Video,
-      type: 'Video',
-      platform: 'Powtoon',
-      completed: '2024-01-18'
-    }
-  ];
+const assignments = [
+  {
+    title: 'YouRockJobs.org Skills Diamond',
+    description: 'Interactive assessment showcasing key professional competencies',
+    icon: Diamond,
+    type: 'Assessment',
+    completed: '2024-01-10',
+    url: '/YouRock.pdf'
+  },
+  {
+    title: 'Learning Style Visualization',
+    description: 'Visual representation of personal learning preferences and strategies',
+    icon: Eye,
+    type: 'Infographic',
+    platform: 'Canva',
+    completed: '2024-01-12',
+    url: '/Learning-Style.png'
+  },
+  {
+    title: 'Communication Comic Strips',
+    description: 'Two scenarios demonstrating effective vs. ineffective workplace communication',
+    icon: Users,
+    type: 'Comic',
+    platform: 'Pixton',
+    completed: '2024-01-15',
+    url: '/Communication-Comic-Strips.pdf'
+  },
+  {
+    title: 'Community Mapping',
+    description: 'Demonstration of potential workplaces near me',
+    icon: Video,
+    type: 'Photo',
+    platform: 'Powtoon',
+    completed: '2024-01-18',
+    url: '/Community-Mapping.png'
+  },
+  {
+    title: 'Observing Communication in the Workplace',
+    description: 'Analysis of professional communication dynamics in real environments',
+    icon: Eye,
+    type: 'Observation',
+    completed: '2024-01-20',
+    url: '/Workplace-Observation-Form.pdf'
+  },
+  {
+    title: 'How a Company Hires',
+    description: 'Breakdown of typical hiring practices in modern organizations',
+    icon: Users,
+    type: 'Research',
+    completed: '2024-01-22',
+    url: '/How-Company-Hires.pdf'
+  },
+  {
+    title: 'Informational Interview Form',
+    description: 'Interview template used to learn more about career roles from professionals',
+    icon: Users,
+    type: 'Form',
+    completed: '2024-01-24',
+    url: '/Informational-Interview-Form.pdf'
+  },
+  {
+    title: 'Digital Calendar & Task Tracking',
+    description: 'Efficient time management system using digital tools',
+    icon: Video,
+    type: 'Plan',
+    platform: 'Google Calendar / Trello',
+    completed: '2024-01-26',
+    url: '/Digital-Calendar-Task-Tracking.pdf'
+  },
+  {
+    title: 'Leadership Graphic',
+    description: 'Visual summary of personal leadership style and influence',
+    icon: Diamond,
+    type: 'Graphic',
+    completed: '2024-01-28',
+    url: '/Leadership-Graphic.png'
+  }
+];
 
   return (
     <section id="wrn-assignments" className="py-16 bg-white">
