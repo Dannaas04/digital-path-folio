@@ -11,7 +11,7 @@ const Header = () => {
           <div className="flex-shrink-0">
             <div className="w-40 h-40 rounded-full bg-white/20 border-4 border-white overflow-hidden">
               <img 
-                src="/headshot.png" 
+                src='/headshot.png' 
                 alt="Professional Headshot"
                 className="w-full h-full object-cover"
               />
