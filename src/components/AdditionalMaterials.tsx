@@ -78,7 +78,7 @@ const AdditionalMaterials = () => {
                     ))}
                   </ul>
                   <Button variant="outline" className="w-full mt-6">
-                   <a href='/IEEE.pdf' target='_blank' rel='noopener noreferral'>
+                   <a href='/IEEE-CSR.pdf' target='_blank' rel='noopener noreferral'>
                     View Materials
                      </a>
                   </Button>
