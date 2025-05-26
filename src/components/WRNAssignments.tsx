@@ -34,30 +34,6 @@ const assignments = [
     url: '/Community-Mapping.png'
   },
   {
-    title: 'Observing Communication in the Workplace',
-    description: 'Analysis of professional communication dynamics in real environments',
-    icon: Eye,
-    type: 'Observation',
-    completed: '2024-01-20',
-    url: '/Workplace-Observation-Form.pdf'
-  },
-  {
-    title: 'How a Company Hires',
-    description: 'Breakdown of typical hiring practices in modern organizations',
-    icon: Users,
-    type: 'Research',
-    completed: '2024-01-22',
-    url: '/How-Company-Hires.pdf'
-  },
-  {
-    title: 'Informational Interview Form',
-    description: 'Interview template used to learn more about career roles from professionals',
-    icon: Users,
-    type: 'Form',
-    completed: '2024-01-24',
-    url: '/Informational-Interview-Form.pdf'
-  },
-  {
     title: 'Digital Calendar & Task Tracking',
     description: 'Efficient time management system using digital tools',
     icon: Video,
