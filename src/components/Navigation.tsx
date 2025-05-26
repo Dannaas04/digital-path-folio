@@ -7,11 +7,11 @@ const Navigation = () => {
 
   const sections = [
     
-    { id: 'job-documents', label: 'About Me', icon: File },
-    { id: 'job-documents', label: 'Job Documents', icon: File },
+    { id: 'job-documents', label: 'About Me', icon: Profile },
     
     { id: 'reflection', label: 'Reflection', icon: User },
     { id: 'wrn-assignments', label: 'WRN Assignments', icon: GraduationCap },
+    { id: 'job-documents', label: 'Job Documents', icon: File },
     { id: 'additional', label: 'Additional Materials', icon: Award },
   ];
 
