@@ -7,7 +7,7 @@ const Navigation = () => {
 
   const sections = [
     
-    { id: 'job-documents', label: 'About Me', icon: Profile },
+    { id: 'job-documents', label: 'About Me', icon: User },
     
     { id: 'reflection', label: 'Reflection', icon: User },
     { id: 'wrn-assignments', label: 'WRN Assignments', icon: GraduationCap },
