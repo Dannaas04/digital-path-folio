@@ -3,13 +3,11 @@ import React, { useState } from 'react';
 import { File, FileText, User, Award, Briefcase, GraduationCap } from 'lucide-react';
 
 const Navigation = () => {
-  const [activeSection, setActiveSection] = useState('job-documents');
+  const [activeSection, setActiveSection] = useState('about-me');
 
   const sections = [
-    
-    { id: 'job-documents', label: 'About Me', icon: User },
-    
-    { id: 'reflection', label: 'Reflection', icon: User },
+    { id: 'about-me', label: 'About Me', icon: User },
+    { id: 'reflection', label: 'Reflection', icon: FileText },
     { id: 'wrn-assignments', label: 'WRN Assignments', icon: GraduationCap },
     { id: 'job-documents', label: 'Job Documents', icon: File },
     { id: 'additional', label: 'Additional Materials', icon: Award },
