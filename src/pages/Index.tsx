@@ -7,6 +7,7 @@ import ReflectionSection from '@/components/ReflectionSection';
 import WRNAssignments from '@/components/WRNAssignments';
 import AdditionalMaterials from '@/components/AdditionalMaterials';
 import Footer from '@/components/Footer';
+import AboutMe from '@/components/AboutMe';
 
 const Index = () => {
   return (
@@ -15,9 +16,10 @@ const Index = () => {
       <Navigation />
       
       <main className="animate-fade-in">
-        <JobDocuments />
+        <AboutMe/>
         <ReflectionSection />
         <WRNAssignments />
+        <JobDocuments />
         <AdditionalMaterials />
       </main>
       
