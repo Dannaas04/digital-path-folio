@@ -3,6 +3,7 @@ import React from 'react';
 
 const AboutMe = () => {
   return (
+    <div>
     <section id="about-me" className="py-16 bg-gradient-to-r from-blue-50 to-indigo-50">
       <div className="max-w-6xl mx-auto px-6">
         <div className="text-center mb-12">
@@ -15,6 +16,7 @@ const AboutMe = () => {
         </div>
       </div>
     </section>
+    </div>
   );
 };
 
