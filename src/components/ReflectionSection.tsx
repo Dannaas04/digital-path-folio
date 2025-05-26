@@ -4,7 +4,7 @@ import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
 
 const ReflectionSection = () => {
-  const reflectionReportUrl = '/Student_Reflection_Report.pdf'; // <-- Change this to your actual file path
+  const reflectionReportUrl = '/Self-Reflection.pdf'; // <-- Change this to your actual file path
 
   return (
     <section id="reflection" className="py-16 bg-accent">
