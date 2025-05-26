@@ -6,7 +6,10 @@ const Navigation = () => {
   const [activeSection, setActiveSection] = useState('job-documents');
 
   const sections = [
+    
+    { id: 'job-documents', label: 'About Me', icon: File },
     { id: 'job-documents', label: 'Job Documents', icon: File },
+    
     { id: 'reflection', label: 'Reflection', icon: User },
     { id: 'wrn-assignments', label: 'WRN Assignments', icon: GraduationCap },
     { id: 'additional', label: 'Additional Materials', icon: Award },
