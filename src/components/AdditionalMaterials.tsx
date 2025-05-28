@@ -25,7 +25,7 @@ const AdditionalMaterials = () => {
   },
   {
     type: 'Certification',
-    title: 'Participation – LIRA 21 Research & Innovation Program',
+    title: 'Participation – LIRA 18 Research & Innovation Program',
     organization: 'IRA Leb',
     year: '2025',
     icon: GraduationCap
